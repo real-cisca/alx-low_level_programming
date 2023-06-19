@@ -1,5 +1,2 @@
 #!/bin/bash
-#gcc -E $CFILE -o c
-
-# Run the C file preprocessor and save result
 cpp "$CFILE" > "c"
